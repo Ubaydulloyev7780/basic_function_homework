@@ -6,8 +6,6 @@
 void main() {
   print(func(-98));
   }
-  int func(int raqam){
-    int iavob;
-    javob=(-1)*raqam;
-    return javob;
+  String func(String a){
+        return -a;
   }
