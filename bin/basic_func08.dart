@@ -6,8 +6,8 @@
 void main() {
   print(func(234));
 }
-int func(int raqam){
+double func(int raqam){
   int javob=0;
-  javob=raqam%3;
+  javob=raqam~/3;
   return javob;
 }
