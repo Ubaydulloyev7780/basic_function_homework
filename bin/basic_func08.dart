@@ -3,4 +3,11 @@
 // Create a variable called ‘answer’. 
 // Find the remainder of the division of number by 3 and assign it to ‘answer’.
 // return the answer.
-void main() {}
+void main() {
+  print(func(234));
+}
+int func(int raqam){
+  int javob=0;
+  javob=raqam%3;
+  return javob;
+}

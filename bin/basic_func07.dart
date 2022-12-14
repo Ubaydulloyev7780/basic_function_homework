@@ -5,4 +5,17 @@
 //  Find the ‘number’ third digit and assign to x3.
 // Create a variable called ‘answer’ and assign it the sum of the three digits. 
 // return the sum of the digits.
-void main() {}
+int func(int raqam){
+  int x1, x2, x3;
+  x1=raqam%10;
+  raqam~/=10;
+  x2=raqam%10;
+  raqam~/=10;
+  x3=raqam;
+  int javob=0;
+  javob=x1+x2+x3;
+  return javob;
+}
+void main() {
+  print(func(246));
+}
